@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background: url('./assets/background.jpg');
+  background-size: cover;
+  border-radius: 37.5px;
+  width: 600px;
+  height: 400px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #96DD1C;
+  padding: 10% 20%;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+
+.grid-container {
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  row-gap: 10%;
+  column-gap: 10%;
+  align-items: center;
+}
+
+.name {
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: 400;
+}
+
+.grid-container2 {
+  display: grid;
+  margin-top: 10%;
+  grid-template-columns: 25% 25%;
+  row-gap: 10%;
+  column-gap: 5%;
+  margin: 0 auto;
+}
+.div {
+    margin: 10% auto;
+    margin-left: 30%;
+}
+.Btn1,.Btn2 {
+  width: 100%;
+  margin-top: 10%;
+  font-family: 'Staatliches', cursive;
+  color: #96DD1C;
+  font-size: 22px;
+  padding: 2% 20%;
+  border-color: #96DD1C;
+  background-color: transparent;
+  border: solid;
+  font-weight: 300;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.Btn1:hover,.Btn2:hover {
+  background-color: #96DD1C;
+  border-width: 0.5px;
+  font-weight: 300;
+  color: black;
+}
